@@ -3370,6 +3370,7 @@ show({ ...user });
 - status 400 류의 값 : url 이 존재하지 않음.
 - status 500 류의 값 : 데이터 서버가 오류거나 전원이 꺼짐.
 - https://developer.mozilla.org/ko/docs/Web/HTTP/Reference/Status
+- 벡엔드자료 테스트 사이트 https://jsonplaceholder.typicode.com/
 
 ```js
 // 데이터 서버에 자료를 호출함.
@@ -3382,7 +3383,7 @@ const xhr = new XMLHttpRequest();
 // GET   : 자료를 주세요.
 // POST  : 자료를 추가합니다.
 // DELETE : 자료를 삭제해 주세요.
-// PUT   :  자료 전체를 수정해 주세요.
+// PUT   :  자료 전체를 수정해 주세요.``
 // PATCH :  자료 내용에서 일부분만 수정해 주세요.
 xhr.open("GET", "https://jsonplaceholder.typicode.com/photos");
 
